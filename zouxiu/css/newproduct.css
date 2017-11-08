@@ -1,0 +1,55 @@
+.goodswarp{
+	padding-top:43px;
+	background:#b0ddfc;
+}
+.goodbox{
+	width: 1200px;
+    margin: 0 auto;
+}
+.zt_item_three{
+	width: 1170px;
+    padding: 15px 0 0 30px;
+    overflow: hidden;
+    margin-top: -15px;
+}
+.zt_item_three li{
+	float: left;
+    width: 362px;
+    margin: 0 28px 28px 0;
+}
+.zt_item_three a{
+	display: block;
+    width: 362px;
+    transition: all .5s;
+}
+.zt_item_three img{
+	width: 362px;
+	vertical-align: middle;
+}
+.zt_item_three a:hover{
+	transform:translateY(-10px);
+}
+
+.zt_item_two{
+	width: 1170px;
+    padding: 15px 0 0 30px;
+    overflow: hidden;
+    margin-top: -15px;
+}
+.zt_item_two li{
+	float: left;
+    width: 556px;
+    margin: 0 29px 28px 0;
+}
+.zt_item_two a{
+	display: block;
+    width: 556px;
+    transition: all .5s;
+}
+.zt_item_two img{
+	width: 556px;
+	vertical-align: middle;
+}
+.zt_item_two a:hover{
+	transform:translateY(-10px);
+}

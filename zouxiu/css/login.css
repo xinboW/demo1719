@@ -1,0 +1,280 @@
+/*头部*/
+.header{
+	width:1200px;
+	margin:0 auto;
+}
+.header_inner{
+	height:60px;
+}
+.header a{
+	margin:15px 0;
+	position:absolute;
+	display:block;
+	width:194px;
+	height:30px;
+}
+
+/*主体*/
+.content{
+	border-top:1px solid #e5e5e5;
+	width:100%;
+	height:700px;
+	background:url("../images/login_bg.jpg")center no-repeat #f7f2ec;
+}	
+.content_inner{
+	width:1200px;
+	margin:70px auto 0;
+}
+/*框体部分*/
+.content_box{
+	width:420px;
+	height:560px;
+	background:#fff;
+	float:right;
+	margin-right:30px;
+	box-shadow:1px 1px 10px #ccc;
+	position:relative;
+	/*display:none;*/
+}
+/*选项按钮*/
+.box_top{
+	background:#f7f7f9;
+	height:52px;
+}
+.box_top li{
+	float:left;
+	height:50px;
+	width:210px;
+	text-align:center;
+	line-height:50px;
+}
+.box_top li:hover{
+	border-bottom:2px solid #000;
+}
+.box_top li a{
+	font-size:16px;
+	color:#000;
+}
+/*输入部分*/
+.box_box{
+	height:224px;
+	width:100%;
+}
+.box_main{
+	padding:10px 60px;
+}
+.box_main2{
+	position:absolute;
+	top:52px;
+	padding:10px 60px;
+	display:none;
+}
+.box_main>input{
+	margin-top:14px;
+	width:300px;
+	height:34px;
+	outline:none;
+}
+.box_main .boxaaa{
+	margin-top:14px;
+}
+.box_main .boxaaa input{
+	width:185px;
+	height:34px;
+	float:left;
+	outline:none;
+}
+.box_main .rand{
+	display:inline-block;
+	float:right;
+	vertical-align:middle;
+	width:100px;
+	height:36px;
+	border:1px solid #cccccc;
+	line-height:36px;
+	text-align:center;
+	background:#f7f7f9;
+	color:#000;
+}
+.box_main2 input{
+	margin-top:14px;
+	width:300px;
+	height:34px;
+	outline:none;
+}
+.box_main>a{
+	margin-top:22px;
+	display:block;
+}
+.box_main .findpass{
+	font-size:12px;
+	text-align:right;
+	color:#000;
+}
+.box_main2 .boxbbb{
+	margin-top:22px;
+	text-align:right;
+	font-size:12px;
+}
+.box_main2 .boxbbb a{
+	color:#000;
+}
+.box_main .registerbtn{
+	width:302px;
+	height:40px;
+	background:red;
+	border-radius:18px;
+	text-align:center;
+	line-height:40px;
+	font-size:14px;
+	color:#fff;
+}
+.box_main2 .loginbtn{
+	display:block;
+	margin-top:22px;
+	width:302px;
+	height:40px;
+	background:red;
+	border-radius:18px;
+	text-align:center;
+	line-height:40px;
+	font-size:14px;
+	color:#fff;
+}
+
+.error{
+	color:red;
+	font-size:12px;
+}
+/*合作网站登陆*/
+.box_extinfo{
+	width: 300px;
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
+.box_extinfo dt{
+	height: 20px;
+    line-height: 40px;
+    text-align:center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.tit{
+	display:inline-block;
+	background: #fff;
+	padding:0 20px;
+}
+.api_login{
+	width: 270px;
+    height: 30px;
+    margin: 0 auto;
+}
+.api_login li{
+	float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 30px 0 0;
+}
+.last{
+	margin:0px !important;
+}
+.api_login a{
+	opacity: .8;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/login_sprite.png") no-repeat;
+    transition: all .3s;
+}
+.qq{
+	background-position:0 0 !important;
+}
+.weixin{
+	background-position:-30px 0 !important;
+}
+.weibo{
+	background-position:-60px 0 !important;
+}
+.zhifubao{
+	background-position:-90px 0 !important;
+}
+.huaquan{
+	background-position:-120px 0 !important;
+}
+/*协议*/
+.login_xieyi{
+	color: #afafaf;
+    text-align: center;
+    margin: 20px 0;
+}
+.login_xieyi a{
+	color:#000;
+}
+/*二维码登陆*/
+.erweima_login{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+
+/*二维码登陆框体*/
+.erweimalogin_box{
+	width:420px;
+	height:100%;
+	background:#fff;
+	float:right;
+	margin-right:30px;
+	box-shadow:1px 1px 10px #ccc;
+	position:relative;
+	display:none;
+}
+.erweimalogin_box h2{
+	padding:30px;
+	font-size:15px;
+	font-weight:bold;
+}
+.code_box{
+	width:300px;
+	margin:20px auto;
+	text-align:center;
+}
+.code_box>img{
+	margin:10px auto 30px;
+}
+.erweimalogin_box>a{
+	display:block;
+	width:140px;
+	height:60px;
+	float:right;
+}
+
+/*页面底部*/
+
+.footer{
+	height: 100px;
+	margin-top: 10px;
+	width: 1200px;
+    margin: 0 auto;
+}
+.footer_xiu{
+	padding-top:15px;
+	text-align:center;
+}
+.footer_xiu a{
+	color:#000;
+	font-size:12px;
+}
+.footer_xiu i{
+	font-weight:400;
+    color: #999;
+    padding: 0 5px;
+}
+.footer_xiu a:hover{
+	border-bottom:1px solid #000;
+}
+.copyright{
+	padding-top:15px;
+	text-align:center;
+}
+
+
